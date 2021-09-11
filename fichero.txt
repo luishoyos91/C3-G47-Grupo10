@@ -1,1 +1,1 @@
-este es un fichero de texto creado y editado con vim
+este es un fichero de texto creado y editado con VIM.
