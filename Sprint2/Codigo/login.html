@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Reserva de Asientos - Iniciar Sesión</title>
+</head>
+<body>
+    <div id="login" class="form">
+        <form action="mysuperscript.php" autocomplete="on">
+            <h1>Login</h1>
+            <p>
+                <label for="username" class="uname"> Nombre de usuario: </label>
+                <input id="username" name="username" required="required" type="text" placeholder="Tu nombre de usuario" />
+            </p>
+            <p>
+                <label for="password" class="youpasswd"> Contraseña:</label>
+                <input id="password" name="password" required="required" type="password" placeholder="Tu password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Debe contener al menos un número y una letra minúscula y mayúscula, y al menos 8 o más caracteres"
+                />
+            </p>
+    
+            <p class="login button">
+                <input type="submit" value="Login" />
+            </p>
+            <p class="change_link">
+                Aún no eres miembro
+                <a href="#toregister" class="to_register">Regístrate</a>
+            </p>
+        </form>
+    </div>
+    
+    
+    
+    
+    <div id="register" class="form">
+        <form action="mysuperscript.php" autocomplete="on">
+            <h1> Registro</h1>
+            <p>
+                <label for="usernamesignup" class="uname">Tu nombre</label>
+                <input id="usernamesignup" name="usernamesignup" required="required" type="text" placeholder="Nombre" />
+            </p>
+            <p>
+                <label for="emailsignup" class="youmail"> Tu email</label>
+                <input id="emailsignup" name="emailsignup" required="required" type="email" placeholder="ejemplo@mail.com" />
+            </p>
+            <p>
+                <label for="passwordsignup" class="youpasswd">Tu password </label>
+                <input id="passwordsignup" name="passwordsignup" required="required" type="password" placeholder="ejemplo_8df!90EO" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Debe contener al menos un número y una letra minúscula y mayúscula, y al menos 8 o más caracteres"
+                />
+            </p>
+            <p>
+                <label for="passwordsignup_confirm" class="youpasswd">Confirma tu password </label>
+                <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="ejemplo_8df!90EO" />
+            </p>
+            <p class="signin button">
+                <input type="submit" value="Registro" />
+            </p>
+            <p class="change_link">
+                Ya eres miembro
+                <a href="#tologin" class="to_register"> Ingresa Aqui </a>
+            </p>
+        </form>
+    </div>
+    <footer>
+        <hr width="95%" color="#343a40" >
+        <div class="iconosredes" id="redessociales">
+          <div class="ajusteicono">
+            <a target="_blank" href="https://www.facebook.com"><img src="iconos/facebook.svg" alt="facebook" title="Facebook" width="30px" height="30px"></a>
+          </div>
+          <div class="ajusteicono">
+            <a target="_blank" href="https://twitter.com"><img src="iconos/twitter.svg" alt="twitter" title="Twitter" width="30px" height="30px"></a>
+          </div>
+          <div class="ajusteicono">
+              <a target="_blank" href="https://www.instagram.com"><img src="iconos/instagram.svg" alt="instagram" title="Instagram" width="30px" height="30px"></a>
+          </div>
+        </div>
+        <div class="textofooter">
+                <p class="parrafo_footer">© COPYRIGHT 2021 Bogotá Universidad Autónoma de Bucaramanga
+                    <br>                    
+                    Creado por <b>Grupo 10 Ciclo 3G47 UNAB</b>
+                </p>
+        </div>              
+    </footer>
+</body>
+</html>
